@@ -22,6 +22,9 @@ var handleRsults=function(err,results,time){
     }
 };
 
-eventDoubler(2,handleRsults);
-console.log(".......................................................................");
-eventDoubler(3,handleRsults);
+// eventDoubler(2,handleRsults);
+// console.log(".......................................................................");
+// eventDoubler(3,handleRsults);
+module.exports.eventDoubler1=eventDoubler;
+module.exports.foo="bar";
+module.exports.maxTime=maxTime;
